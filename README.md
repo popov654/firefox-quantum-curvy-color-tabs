@@ -15,8 +15,8 @@ Turn Firefox Quantum's unattractive rectangular tabs...
 Note: This has been tested only on Ubuntu 14.04 Trusty (with Unity), Xubuntu 14.04 Trusty (with XFCE) and Xubuntu 16.04 Xenial (with XFCE).
 
 1. git clone this project somewhere.
-2. Open [about:profiles](about:profiles) in FF.
-3. Open the root directory of the profile in use.
+2. Open `about:profiles` in FF.
+3. Open the root directory of the profile in use shown on that page.
 4. Create a subdirectory named `chrome/` under that profile directory.
 5. Copy [userChrome.css](userChrome.css) from the cloned repo location into `chrome/` subdirectory.
 6. Restart Firefox.
